@@ -3,7 +3,6 @@ node_modules/
 */node_modules/
 
 # Environment variables — NEVER commit these
-.env
 server/.env
 client/.env
 
@@ -17,8 +16,8 @@ server/logs/*.log
 # OS / Editor
 .DS_Store
 Thumbs.db
-.vscode/
 .idea/
 
 # Vite cache
 client/.vite/
+config.bat

@@ -52,7 +52,7 @@ export default function Settings() {
         />
       </Section>
 
-      <Section title="Notifications">
+      {/* <Section title="Notifications">
         {[
           { label: 'Review complete', desc: 'Notify when analysis finishes' },
           { label: 'Critical issues', desc: 'Alert on critical severity findings' },
@@ -86,7 +86,7 @@ export default function Settings() {
         <Row icon={Shield} label="Data retention"
           desc="Analysis results are stored for 90 days"
           control={<span className="badge badge-info">90 days</span>} />
-      </Section>
+      </Section> */}
     </div>
   )
 }
